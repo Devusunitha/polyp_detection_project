@@ -1,0 +1,6 @@
+sahi>=0.11.15
+ultralytics>=8.0.0
+opencv-python
+Pillow
+torch
+torchvision

@@ -1,0 +1,35 @@
+# Python specific
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE and OS specific
+.idea/
+.vscode/
+.DS_Store
+desktop.ini
+
+# --- ALREADY EXISTING DATA RULES ---
+# Data folders that should NOT be tracked
+1_data/
+data/
+
+# --- MODELS ---
+# Ignore all model files to avoid large file uploads without LFS
+*.pt
+*.pth
+*.onnx
+
+# --- HUGGING FACE SPACES DEPLOYMENT FILES ---
+app.py
+Dockerfile
+deploy_*.ps1
+fix_*.ps1
+4.0
+
+# Temporary files & Large files
+*.zip
+*.ipynb_checkpoints
+*.pdf
+results/

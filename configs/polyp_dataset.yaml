@@ -1,0 +1,12 @@
+# Path to the root directory of the processed dataset
+# Note: Use relative paths from your project root (DetSEG)
+path: C:/Users/user/OneDrive/Desktop/DetSEG/data/processed
+
+# Train/val/test image paths
+train: images/train
+val: images/val
+test: images/test
+
+# Class names
+names:
+  0: polyp
